@@ -164,7 +164,7 @@ function resetColorsFromLocalStorageAndSelect(){
     localStorage.removeItem('chosenColours');
     let _select = document.querySelector('.configpanel__selector');
     _select.innerHTML = '';
-    let chosenColours = [
+    chosenColours = [
         new Colours('Red Crayola', '#fa0050'),
         new Colours('Sunglow', '#fecd36'),
         new Colours('Middle Yellow Red', '#e4b382'),
