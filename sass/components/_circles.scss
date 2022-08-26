@@ -1,0 +1,33 @@
+.circles-recipient {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 0em 8em 0;
+
+    @media (min-width: 768px) {
+        padding: 0;
+    }
+    
+    &-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 50%;
+        background-color: #ffffff;
+        transition: background 0.35s;
+
+        &:hover {
+            cursor: crosshair;
+        }
+    }
+}

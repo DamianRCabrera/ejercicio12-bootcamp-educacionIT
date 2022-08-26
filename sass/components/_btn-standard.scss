@@ -1,0 +1,26 @@
+.btn-standard {
+    width: 50%;
+    flex-grow: 1;
+    background: #FA0050;
+    border: 1px solid #FA0050;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 16px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+
+    &:hover,
+    &:active {
+        background-color: initial;
+        color: #FA0050;
+    }
+    &:active {
+        opacity: .5;
+    }
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 - Damián R. Cabrera</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="logo-container">
+                <img src="./css/assets/logo.svg" alt="logo" class="logo-container__logo">
+                <h1 class="logo-container__name">DeliveryYa</h1>
+            </div>
+
+            <div class="info-container">
+                <h1 class="info-container__header">Tematetica elegida:</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="configpanel">
+                <label for="colours" class="configpanel__description">Selector de Colores:</label>
+                <select name="colours" id="colours" class="configpanel__selector" data-selector="color-picker">
+                    <option value="transparent" disabled></option>
+                </select>
+                <label for="color-palette" class="configpanel__description">Elige tu propio color</label>
+                <input type="color" name="color-palette" id="color-palette" class="configpanel__palette">
+                <div class="configpanel-buttons">
+                    <button class="btn-standard" data-selector="addcolor">Agregar</button>
+                    <button class="btn-standard" data-selector="removecolor">Quitar</button>
+                </div>
+                <form action="post" class="configpanel__overlay">
+                    <label for="overlay" class="configpanel__overlay__label">Modo superpuesto</label>
+                    <input type="checkbox" class="configpanel__overlay__checkbox" id="overlay">
+                    
+                </form>
+                <input type="reset" value="Reiniciar" class="btn-standard" data-selector="reset">
+                <label for="circlegenerator" class="configpanel__description">Ingrese cant. de círculos</label>
+                <input class="configpanel__number" type="number" name="circlegenerator" id="circlegenerator">
+                <button class="btn-standard" data-selector="addcircle">Generar círculo/s</button>
+            </div>
+            
+            <div class="circles-recipient"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <a href="https://www.pedidosya.com.ar/" target="_blank" class="main-footer__link">
+                <img src="./css/assets/pedidosya.svg" alt="Logo PedidosYa" class="main-footer__img" title="Página web de referencia">
+            </a>
+        </div>
+    </footer>
+<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.configpanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    // margin: 4em 0 0 0;
+    padding: 1em;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 1em;
+
+    &__description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.3em;
+    }
+
+    &__selector {
+        width: 230px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+    }
+
+    &__palette {
+        width: 70px;
+        height: 35px;
+        border-radius: 6px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__overlay {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+        
+        &__label {
+            margin-right: 0.15em;
+            cursor: pointer;
+        }
+
+        &__checkbox {
+            cursor: pointer;
+        }
+    }
+
+    &-buttons {
+        display: flex;
+        gap: 1em;
+    }
+
+    &__number {
+        width: 230px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+    }
+}

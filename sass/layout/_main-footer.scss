@@ -1,0 +1,21 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    background-color: #ffffff;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    box-shadow: 0px 9px 72px -16px rgba(0,0,0,0.6);
+
+    &__img {
+        text-align: center;
+    }
+
+    &__link {
+        text-align: center;
+    }
+}

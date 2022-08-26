@@ -1,0 +1,39 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #FA0050;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    box-shadow: 0px 9px 72px -16px rgba(0,0,0,0.6);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1em 1em 0.5em;
+
+    &__name {
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        font-size: 2em;
+        font-style: italic;
+        color: #eeeeee;
+    }
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 1em;
+
+    &__header {
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #eeeeee;
+        letter-spacing: 2px;
+    }
+}
