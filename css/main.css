@@ -363,6 +363,8 @@ table {
 }
 
 .main-header {
+  position: relative;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   background-color: #FA0050;
