@@ -363,8 +363,8 @@ table {
 }
 
 .main-header {
+  width: 100%;
   position: relative;
-  z-index: 100;
   display: flex;
   flex-direction: column;
   background-color: #FA0050;
@@ -403,27 +403,26 @@ table {
 }
 
 .main-container {
-  height: 69vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 4em 1em;
+  padding: 1em 1em;
+  margin: 3rem 0;
 }
 @media (min-width: 768px) {
   .main-container {
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 1em 1em 1em 2em;
   }
 }
 
 .main-footer {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 1em;
   background-color: #ffffff;

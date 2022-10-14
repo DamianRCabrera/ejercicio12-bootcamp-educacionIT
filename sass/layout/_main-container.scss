@@ -1,16 +1,15 @@
 .main-container {
-    height: 69vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 4em 1em;
+    padding: 1em 1em;
+    margin: 3rem 0;
 
     @media (min-width: 768px) {
         flex-direction: row;
         justify-content: space-evenly;
-        // gap: 9em;
-        padding: 1em 1em 1em 2em;
     }
 }
 
